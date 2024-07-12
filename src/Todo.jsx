@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "./app.css";
+import "./App.css";
 import { MdDelete } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 
