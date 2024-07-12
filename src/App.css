@@ -1,0 +1,97 @@
+.container {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px 1px gray;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 7px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.save,
+.add {
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.add {
+  background-color: #3f51b5;
+}
+.save {
+  background-color: green;
+}
+.save:hover,
+.add:hover {
+  background-color: #fff;
+  border: 2px solid;
+}
+.add:hover {
+  color: #3f51b5;
+  border-color: #3f51b5;
+}
+.save:hover {
+  color: green;
+  border-color: green;
+}
+ul {
+  list-style: none;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content:not(:last-child) {
+  margin-bottom: 10px;
+}
+ul li {
+  padding-left: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  flex-grow: 1;
+}
+.controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.checkbox {
+  min-width: 20px;
+  min-height: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+.checked {
+  opacity: 0.5;
+}
+.delete,
+.edit {
+  font-size: 20px;
+  cursor: pointer;
+}
+.delete {
+  color: red;
+}
+.edit {
+  color: green;
+}
